@@ -16,25 +16,10 @@ def student(request):
 
 def studentSuccess(request):
    return render(request, 'studentSuccess.html')
-   return render(request,"base.hmtl")
 
 def teachers(request,id_profesor):
-
    teacherSelected = Teacher.objects.first(id_eafit=id_profesor)
-   
    groups = Group.objects.filter(teaacher = teacherSelected)
-
-   return render(request)
-
-
-
-
-
-
-
-
-
-
-
-
+   context = {'groups':groups,'teacher':teacherSelected}
+   return render(request, 'teacher.html',context)
 

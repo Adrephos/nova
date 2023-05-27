@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} Profesor {% endblock %}
+
+{% block content %}
+<div class="">
+	<section class="homepage">
+		<h1>Fechas</h1>
+
+		<div class="form-container">
+			<div>
+                <p>Editar</p>
+            </div>
+            <form>
+                <div>
+                    <label for="parcial">Parcial 2</label>
+                    <input type="date" name="parcial" id="parcial">
+                    <label for="parcial3">Parcial 3</label>
+                    <input type="date" name="parcial3" id="parcial3">
+                    <label for="parcial">Parcial 2</label>
+                    <input type="date" name="parcial" id="parcial">
+                    <label for="parcial">Parcial 2</label>
+                    <input type="date" name="parcial" id="parcial">
+                    <label for="parcial">Parcial 2</label>
+                    <input type="date" name="parcial" id="parcial">
+                </div>
+                <a class="main-button" href="/student/success" type="submit" method="POST">Guardar</a>
+            </form>
+		</div>
+
+	</section>
+</div>
+{% endblock content %}

@@ -168,6 +168,18 @@ nav {
   z-index: 1;
 }
 
+.footer__logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.footer__logo img{
+  width: 30%;
+}
+
 .social-icon,
 .menu {
   position: relative;
