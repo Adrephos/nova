@@ -148,6 +148,14 @@ nav {
   font-weight: bold;
 }
 
+#firt-element{
+  margin-bottom: 0px  !important;
+}
+
+.save-dates{
+  margin-top: 16px;
+}
+
 
   /* ------------------FOOTER-------------- */
 

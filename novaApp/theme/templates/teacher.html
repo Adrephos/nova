@@ -9,25 +9,38 @@
 		<h1>Fechas</h1>
 
 		<div class="form-container">
-			<div>
-                <p>Editar</p>
-            </div>
             <form>
-                <div>
-                    <label for="parcial">Parcial 2</label>
-                    <input type="date" name="parcial" id="parcial">
-                    <label for="parcial3">Parcial 3</label>
-                    <input type="date" name="parcial3" id="parcial3">
-                    <label for="parcial">Parcial 2</label>
-                    <input type="date" name="parcial" id="parcial">
-                    <label for="parcial">Parcial 2</label>
-                    <input type="date" name="parcial" id="parcial">
+                <div id="firt-element">
                     <label for="parcial">Parcial 2</label>
                     <input type="date" name="parcial" id="parcial">
                 </div>
-                <a class="main-button" href="/student/success" type="submit" method="POST">Guardar</a>
+                <div>
+                    <label for="parcial3">Parcial 3</label>
+                    <input type="date" name="parcial3" id="parcial3">
+                </div>
+                <div>
+                    <label for="supletorio">Supletorio 1</label>
+                    <input type="date" name="supletorio1" id="supletorio1">
+                </div>
+                <div>
+                    <label for="supletorio2">Supletorio 2</label>
+                    <input type="date" name="supletorio2" id="supletorio2">
+                </div>
+                <a class="main-button save-dates" type="submit" method="POST">Guardar</a>
             </form>
 		</div>
+
+        <div>
+            <h1>Supletorios</h1>
+                <div>
+                    <button class="main-button">Supletorio 1</button>
+                    <button class="main-button">Supletorio 2</button>
+                </div>
+                <div class="form-container">
+                    <input type="text" placeholder="ID Estudiante...">
+                    <button class="main-button">Buscar</button>
+                <div>
+        </div>
 
 	</section>
 </div>

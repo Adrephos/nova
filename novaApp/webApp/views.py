@@ -17,9 +17,9 @@ def student(request):
 def studentSuccess(request):
    return render(request, 'studentSuccess.html')
 
-def teachers(request,id_profesor):
-   teacherSelected = Teacher.objects.first(id_eafit=id_profesor)
-   groups = Group.objects.filter(teaacher = teacherSelected)
-   context = {'groups':groups,'teacher':teacherSelected}
-   return render(request, 'teacher.html',context)
+def teachers(request):
+   # teacherSelected = Teacher.objects.first(id_eafit=1)
+   # groups = Group.objects.filter(teaacher = teacherSelected)
+   # context = {'groups':groups,'teacher':teacherSelected}
+   return render(request, 'teacher.html')
 
