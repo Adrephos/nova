@@ -33,7 +33,7 @@ class supMidterm(models.Model):
 class Group(models.Model):
 
      id = models.BigIntegerField(primary_key=True)
-     enabled_sup = models.OneToOneField(supMidterm,blank=True,on_delete=models.CASCADE)
+     enabled_sup = models.OneToOneField(supMidterm,null=True,on_delete=models.CASCADE)
      teacher = models.ForeignKey(Teacher,on_delete=models.CASCADE)
 
 class Student(models.Model):
