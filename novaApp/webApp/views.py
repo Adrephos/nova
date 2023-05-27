@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from webApp.models import Group,Teacher
 
 
 # Create your views here.
@@ -9,7 +10,19 @@ def base(request):
    return render(request,"base.hmtl")
 
 def teachers(request,id_profesor):
-   pass
+
+   teacherSelected = Teacher.objects.first(id_eafit=id_profesor)
+   
+   groups = Group.objects.filter(teaacher = teacherSelected)
+
+   return render(request)
+
+
+
+
+
+
+
 
 
 
