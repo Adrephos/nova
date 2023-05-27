@@ -15,7 +15,9 @@ def teachers(request,id_profesor):
 
    teacherSelected = Teacher.objects.first(id_eafit=id_profesor)
    
-   groups = Group.objects.filter(teaacher = teacherSelected)
+   groups = Group.objects.filter(teacher = teacherSelected)
+   
+
 
    return render(request)
 

@@ -9,4 +9,5 @@ admin.site.register(Midterm)
 admin.site.register(Group)
 admin.site.register(Mentor)
 admin.site.register(Student)
+admin.site.register(supMidterm)
 
