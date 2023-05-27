@@ -2,11 +2,8 @@ from django.urls import path
 from .views import *
 
 urlpatterns = [
-<<<<<<< HEAD
-    path('', index, name='index'),
-    
-=======
     path('', home, name='home'),
     path('base/', base, name='base'),
->>>>>>> origin
+    path('student/', student, name='student'),
+    path('student/success', studentSuccess, name='studentSuccess')
 ]

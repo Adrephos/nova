@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} Estudiante {% endblock %}
+
+{% block content %}
+<div class="">
+	<section class="homepage">
+		<h1>Registro de supletorio</h1>
+
+		<div class="form-container">
+			<div>
+                <p>Completando este formulario confirmas tu deseo de completar el supletorio 1</p>
+            </div>
+            <form>
+                <div>
+                    <label for="correo">Correo institucional</label>
+                    <input type="correo" name="correo" id="correo" placeholder="Correo...">
+                </div>
+                <a class="main-button" href="/student/success" type="submit" method="POST">Enviar</a>
+            </form>
+		</div>
+
+	</section>
+</div>
+{% endblock content %}

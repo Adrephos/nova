@@ -1,12 +1,18 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %} Estudiante {% endblock %}
 
 {% block content %}
 <div class="">
-	<section class="">
-		<h1 class="">Bienvenido a Gael!</h1>
+	<section class="homepage">
+		<h1>¡Bienvenido a Gael!</h1>
+
+		<div class="main-button-container">
+			<a href="/student/" class="main-button" type="button" name="estudiante">Estudiante</a>
+			<a href="/teacher/" class="main-button" type="button" name="profesor">Profesor</a>
+			<a href="/mentor/" class="main-button" type="button" name="monitor">Monitor</a>
+		</div>
+
 	</section>
 </div>
 {% endblock content %}
