@@ -1,8 +1,9 @@
 <h1 align="center"> Hackaton </h1>
 
 <p align="center"> 
-    <a href="https://imgur.com/a/eTMmY7Q"><img width="400" src="https://i.imgur.com/eTMmY7Q.jpg" title="source: imgur.com" /></a>
+  <img src="https://media.licdn.com/dms/image/D4E22AQHow0tgnwweRg/feedshare-shrink_1280/0/1685338819662?e=1692230400&v=beta&t=RlIXz0VnAGq0Gmxdsi1ivRSr-9q16xxmqb1fNsbWt4M" alt="Centered Image" width="400"">
 </p>
+
 
 
 <h2 align="left">
